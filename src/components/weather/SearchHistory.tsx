@@ -1,4 +1,4 @@
-import { Card, CardContent, Typography, List, ListItem, ListItemButton, ListItemText, Box, Chip } from '@mui/material';
+import { Card, CardContent, Typography, List, ListItem, ListItemButton, ListItemText, Box } from '@mui/material';
 import { History } from '@mui/icons-material';
 import { SearchHistoryItem } from '@/types';
 
