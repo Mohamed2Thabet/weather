@@ -7,7 +7,7 @@ export const Header = () => {
 
   return (
     <AppBar position="static">
-      <Toolbar>
+      <Toolbar sx={{display:'flex',flexDirection:{xs:"column",md:'row'}}}>
         <Cloud sx={{ mr: 2 }} />
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           Weather App
